@@ -2,6 +2,7 @@ import streamlit as st
 import pyodbc
 import pandas as pd
 
+
 def main():
     st.title("Database Query Tool")
     st.markdown("Connect to SQL Server and execute queries")
